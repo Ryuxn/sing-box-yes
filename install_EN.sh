@@ -161,7 +161,7 @@ config_check() {
 
 set_as_entrance() {
     if [[ ! -f "${SCRIPT_FILE_PATH}" ]]; then
-        wget --no-check-certificate -O ${SCRIPT_FILE_PATH} https://raw.githubusercontent.com/FranzKafkaYu/sing-box-yes/main/install.sh
+        wget --no-check-certificate -O ${SCRIPT_FILE_PATH} https://raw.githubusercontent.com/Ryuxn/sing-box-yes/main/install_EN.sh
         chmod +x ${SCRIPT_FILE_PATH}
     fi
 }
